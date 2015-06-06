@@ -1,5 +1,6 @@
 use JSON::Tiny;
 
-class App::JSONV {
+module App::JSONV
+{
 
 }
