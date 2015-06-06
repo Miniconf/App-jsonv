@@ -3,7 +3,8 @@
     "version" : "0.01",
     "description" : "A command line JSON validator app",
     "author" : [ "David Farrell", "Dmitry Yaskolko" ],
-    "source-url" : "https://github.com/Miniconf/App-jsonv",
+		"source-type": "git", 
+    "source-url" : "git://github.com/Miniconf/App-jsonv",
     "depends" : [ "JSON::Tiny" ],
     "provides" : {
       "jsonv" : "App-jsonv/bin/jsonv"
