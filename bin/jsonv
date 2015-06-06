@@ -5,14 +5,14 @@ use JSON::Tiny::Grammar;
 
 sub MAIN (Str:D $filepath)
 {
-	my $result = JSON::Tiny::Grammar.parsefile($filepath);
+		JSON::Tiny::Grammar.parsefile($filepath);
 
 		CATCH {
-						say "Error parsing json: $_";
+						say "Error parsing JSON: $_";
 						return 1
 		}
 
-		say "json is valid"
+		say "JSON is valid!"
 
 }
 
