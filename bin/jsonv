@@ -1,0 +1,7 @@
+use JSON::Tiny::Grammar;
+
+sub MAIN (Str:D filepath)
+{
+
+}
+
